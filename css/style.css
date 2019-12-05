@@ -1,11 +1,11 @@
 .header_top {
-  background-color: rgb(201, 131, 123);
-  width: 100%;
+  background-color: yellow;
   height: 80px;
-  position:fixed;
+  /* position:fixed; */
 }
 .navbar {
-  background-color:rgb(220, 247, 161);
+  background-color: rgb(150, 207, 111);
+  height:80px;
 }
 .jumbo {
   background-color: red;
@@ -14,9 +14,30 @@
 }
 .jumbo_text {
   background-color: pink;
+  height: 700px;
+
+}
+.box_text {
   height: 500px;
+  width: 600px;
+  background-color: blue;
+  float: left;
+}
+.jumbo_form {
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+  float: right;
+}
+.sezione_loghi {
+  background-color: rgb(128, 63, 99);
+  height: 200px;
   width: 100%;
 }
-.cioa {
-  vertical-align: text-top;
+.top_deploy {
+  background-color: rgb(106, 71, 22);
+}
+.col_text {
+  background-color: rgb(219, 97, 246);
+  height: 400px;
 }
