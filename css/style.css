@@ -1,3 +1,4 @@
+/* header-top */
 .header_top {
   background-color: yellow;
   height: 80px;
@@ -7,6 +8,8 @@
   background-color: rgb(150, 207, 111);
   height:80px;
 }
+/* /header-top */
+/* jumbo */
 .jumbo {
   background-color: red;
   width: 100%;
@@ -29,15 +32,38 @@
   background-color: blue;
   float: right;
 }
+/* /jumbo */
+/* sezioni-loghi */
 .sezione_loghi {
   background-color: rgb(128, 63, 99);
   height: 200px;
   width: 100%;
 }
+/* /sezioni-loghi */
+/* sezione deploy */
 .top_deploy {
   background-color: rgb(106, 71, 22);
 }
 .col_text {
   background-color: rgb(219, 97, 246);
   height: 400px;
+}
+/* /sezione deploy */
+/* sezione designed */
+.sezione_designed {
+  background-color: red;
+  height: 400px;
+  margin: 0 auto;
+}
+.box_designed {
+  width: 60%;
+  background-color: rgb(116, 117, 195);
+  margin: 0 auto;
+  height: 400px;
+}
+.text_designed {
+  
+}
+.text_designed_footer {
+
 }
