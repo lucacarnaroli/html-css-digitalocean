@@ -22,13 +22,14 @@
 }
 .box_text {
   height: 500px;
-  width: 600px;
+  width: 60%;
   background-color: blue;
   float: left;
+
 }
 .jumbo_form {
   height: 500px;
-  width: 500px;
+  width: 40%;
   background-color: blue;
   float: right;
 }
@@ -52,18 +53,62 @@
 /* sezione designed */
 .sezione_designed {
   background-color: red;
-  height: 400px;
+  height: 500px;
   margin: 0 auto;
 }
 .box_designed {
   width: 60%;
   background-color: rgb(116, 117, 195);
   margin: 0 auto;
-  height: 400px;
+  height: 500px;
 }
 .text_designed {
-  
+
 }
 .text_designed_footer {
 
+}
+/* /sezione designed */
+/* sezione features */
+.features_top {
+  background-color: rgb(82, 55, 108);
+}
+.col_features {
+  background-color: rgb(111, 82, 201);
+}
+/* /sezione features */
+
+/* sezione service tabella */
+.service_top {
+  background-color: rgb(249, 125, 6)
+}
+.col_service {
+  background-color: rgb(233, 82, 191)
+}
+/* /sezione service tabella */
+/* sezione rockerbox */
+.sezione_rockerbox {
+  background-color: red;
+  height: 500px;
+  margin: 0 auto;
+}
+.box_rocker {
+  width: 60%;
+  background-color: rgb(116, 117, 195);
+  margin: 0 auto;
+  height: 500px;
+}
+/* /sezione rockerbox */
+/* sezione get started  */
+.sezione_get_started {
+  background-color: rgb(134, 163, 238);
+  height: 100px;
+}
+/* /sezione get started  */
+/* sezione footer */
+.box_footer {
+  background-color: rgb(84, 244, 191);
+}
+.col_footer {
+  background-color: rgb(77, 130, 104);
 }
