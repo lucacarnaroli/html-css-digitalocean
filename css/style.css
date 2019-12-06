@@ -1,3 +1,6 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  }
 /* header-top */
 .header_top {
   height: 80px;
@@ -10,12 +13,20 @@
   list-style: none;
 }
 .lista_none li {
-  display: inline-block;
+  display: inline;
   line-height: 5;
-  margin-left: 5px;
+  margin-left: 6px;
+
 }
 .float_right {
   float: right;
+}
+.float_right .btn-primary {
+  background-color: rgb(0, 72, 254, 0.7);
+  border: rgb(0, 72, 254);
+}
+.float_right .btn-primary:hover {
+  background-color: rgb(40, 81, 228)
 }
 .col_logo {
   color: #0069FF;
@@ -30,9 +41,12 @@
   line-height: 2.3;
   font-size: 30px;
 }
-.btn-primary {
-  background-color: white;
-  color: blue;
+.jumbo_form .btn-primary {
+  background-color: rgb(0, 72, 254, 0.7);
+  border: rgb(0, 72, 254);
+}
+.jumbo_form .btn-primary:hover {
+  background-color: rgb(40, 81, 228)
 }
 .glyphicon {
   float: right;
@@ -44,36 +58,33 @@
 /* /header-top */
 /* jumbo */
 .jumbo {
-  background-color: red;
+  background-color: #0048FF;
   width: 100%;
-  height: 700px;
-}
-.jumbo_text {
-  background-color: pink;
-  height: 700px;
-
+  height: 550px;
 }
 .box_text {
   height: 500px;
-  width: 60%;
+  width: 50%;
   float: left;
-  width: 40%;
   color: white;
+  margin-top: 70px;
 }
 .box_text h1{
-  font-size: 45px;
+  font-size: 50px;
 }
 .box_text p {
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 15px;
+  width: 80%;
+  color: rgb(252, 244, 247, 0.8)
 }
 .jumbo_form {
   background-color: white;
-  height: 400px;
-  width: 40%;
+  height: 410px;
+  width: 35%;
   float: right;
   padding: 2%;
-  margin: 70px 70px;
+  margin-top: 70px;
   border-radius: 4px;
 }
 .jumbo_form .text_deploy_black {
@@ -82,6 +93,21 @@
 .jumbo_form .text_deploy_blue {
   color: rgb(0, 105, 255);
   margin-bottom: 20px;
+}
+.jumbo_form .form {
+  margin-bottom: 12px;
+}
+.jumbo_form .form-control {
+  height: 45px;
+}
+.jumbo_form .btn-block {
+  height: 35px;
+  font-size: 15px;
+  line-height: 0;
+}
+.termini_form {
+  text-decoration: underline;
+  color: #0048FE;
 }
 
 /* /jumbo */
