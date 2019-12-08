@@ -1,6 +1,24 @@
 body {
   font-family: 'Roboto', sans-serif;
   }
+/* classi pre-impostate */
+.color_grey_blue {
+  color: rgba(36, 59, 89, 0.8);
+}
+.color_grey {
+  color: rgba(53, 60, 75, 0.8)
+}
+.top_title_section {
+  color: #021C4E;
+  font-size: 25px;
+}
+.background_section_verdeacqua {
+  background-color: rgba(164, 214, 213, 0.25);
+}
+.lista_none {
+  list-style: none;
+}
+/* classi per color testi */
 /* header-top */
 .header_top {
   position: fixed;
@@ -8,9 +26,6 @@ body {
   width: 100%;
   z-index: 3;
   height: 70px;
-}
-.lista_none {
-  list-style: none;
 }
 .lista_none li {
   display: inline;
@@ -122,13 +137,11 @@ body {
 /* main */
 /* sezioni-loghi */
 .sezione_loghi {
-  background-color: rgba(164, 214, 213, 0.36);
   padding: 2%;
   width: 100%;
 }
 .title_top_loghi {
   font-size: 12px;
-  color: rgb(181, 181, 181, 0.9);
 }
 .title_bottom_loghi a{
   color: #0049FF;
@@ -149,8 +162,8 @@ body {
 }
 /* /sezioni-loghi */
 /* sezione deploy */
-.top_deploy {
-
+.sezioni_deploy{
+  padding: 3%;
 }
 .list_deploy {
   list-style: none;
@@ -161,43 +174,57 @@ body {
 }
 .list_deploy li {
   margin-bottom: 15px;
-
 }
 .top_deploy p {
   width: 65%;
+  font-size: 15px;
   margin: 0 auto;
 }
 .col_text {
-  height: 400px;
   padding-top: 40px;
 }
-.block_cluster {
-  
-}
-.block_one_click {
-  
+.block_deploy {
+  width: 70%;
 }
 .icon_deploy {
-  font-size: 20px;
+  font-size: 25px;
+  color: #0049FF;
+}
+.margin_top_30 {
+  margin-top: 30px;
 }
 /* /sezione deploy */
 /* sezione designed */
 .sezione_designed {
-  background-color: red;
-  height: 500px;
   margin: 0 auto;
+  padding: 1%;
 }
 .box_designed {
-  width: 60%;
-  background-color: rgb(116, 117, 195);
+  width: 70%;
   margin: 0 auto;
-  height: 500px;
 }
-.text_designed {
-
+.box_designed img{
+  width: 60%;
 }
 .text_designed_footer {
-
+  margin-top: 20px;
+}
+.text_designed p {
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+.circle_list li {
+  display: inline;
+}
+.circle_list {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+.screen_section_designed i {
+  margin: 10px;
+  font-size: 25px;
 }
 /* /sezione designed */
 /* sezione features */
